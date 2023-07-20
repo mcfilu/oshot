@@ -43,9 +43,9 @@ const Footer = () => {
         <div className="text-[0.9vw] flex flex-col">
             <h1 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Follow Us</h1>
           <div className={`flex flex-row md:flex-col mx-auto text-[2vh] md:text-[1.1vw] font-main`}>
-            <p className="mb-[0.9vh] mr-[1.5vh] md:mr-[0px]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]`}></i>Facebook</a></p>
-            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Twitter</a></p>
-            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="#" className={`hover:text-gold1 flex items-center`}><i className="fab fa-instagram mr-[1.1vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Instagram</a></p>
+            <p className="mb-[0.9vh] mr-[1.5vh] md:mr-[0px]"><a href="https://www.facebook.com/drswclinics" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]`}></i>Facebook</a></p>
+            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="https://www.twitter.com/DrSWclinics" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Twitter</a></p>
+            <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="https://www.instagram.com/drswclinics/" className={`hover:text-gold1 flex items-center`}><i className="fab fa-instagram mr-[1.1vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Instagram</a></p>
           </div>
           
         </div>
