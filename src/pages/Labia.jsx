@@ -51,7 +51,7 @@ const Labia = () => {
         </div>
         <div className="flex flex-col bg-black" >
         <div className={`flex flex-col justify-center mx-auto w-full`}>
-              <div className={`flex  w-full  justify-center mt-20`}>
+              <div id="labia_opening" className={`flex  w-full  justify-center mt-20`}>
                 <LabiaOpening/>
               </div>
               <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>

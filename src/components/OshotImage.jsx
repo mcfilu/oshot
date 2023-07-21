@@ -10,8 +10,8 @@ const OshotImage = () => {
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
                     <h1 className={`text-gold1 text-[8vh] font-header  mt-[3vh] text-left`}>O-Shot </h1>
                 <h1 className={`text-gold1 text-[8vh] font-header mb-[1vh] text-left`}>Vagina PRP</h1>
-                        <h1 className={`text-white text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Revitalize your sexual vitality and regain self-assurance with the O-Shot, a cutting-edge procedure that harnesses the innate regenerative potential of your body. Experience a renewed sense of sexual performance, improves sensation, and revitalizes intimate pleasure.</h1>
-                        <a className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
+                        <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Revitalize your sexual vitality and regain self-assurance with the O-Shot, a cutting-edge procedure that harnesses the innate regenerative potential of your body. Experience a renewed sense of sexual performance, improves sensation, and revitalizes intimate pleasure.</h1>
+                        <a href="#oshot_opening" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                        
                     {/* </div> */}
         </div>

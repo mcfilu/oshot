@@ -41,8 +41,8 @@ const OshotOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>Inability to control urine can be distressing. Women, especially those who have had multiple vaginal deliveries, are twice as likely to experience stress incontinence. Pelvic floor exercises are recommended to address this issue. At Dr SW Clinics, we offer the O Concept™ Chair to supercharge these exercises.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>The O Concept™ Chair utilizes high-intensity focused electromagnetic technology (HIFEM) to initiate muscle contractions, similar to pelvic floor exercises. This strengthens the muscles, helps prevent leakages, and can alleviate pelvic pain.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>Inability to control urine can be distressing. Women, especially those who have had multiple vaginal deliveries, are twice as likely to experience stress incontinence. Pelvic floor exercises are recommended to address this issue. At Dr SW Clinics, we offer the O Concept™ Chair to supercharge these exercises.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 `}>The O Concept™ Chair utilizes high-intensity focused electromagnetic technology (HIFEM) to initiate muscle contractions, similar to pelvic floor exercises. This strengthens the muscles, helps prevent leakages, and can alleviate pelvic pain.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

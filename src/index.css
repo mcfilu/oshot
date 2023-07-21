@@ -242,3 +242,6 @@
   animation: applyStyles 3s ; 
 }
 
+:target {
+  scroll-margin-top: 20vh;
+}

@@ -41,8 +41,8 @@ const OshotOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>As women age, the effects of menopause can manifest in various vaginal changes. Internally, concerns like dryness or painful sexual intercourse may arise, while externally, issues like labial atrophy or fat loss in the outer labia can occur.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>In menopausal or athletic women, the labia may lose volume due to fat loss, resulting in a flatter appearance, and the skin can start to sag as we age. Beyond cosmetic concerns that may affect confidence and relationships with partners, the lack of volume or cushioning can also lead to discomfort in everyday life.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>As women age, the effects of menopause can manifest in various vaginal changes. Internally, concerns like dryness or painful sexual intercourse may arise, while externally, issues like labial atrophy or fat loss in the outer labia can occur.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 `}>In menopausal or athletic women, the labia may lose volume due to fat loss, resulting in a flatter appearance, and the skin can start to sag as we age. Beyond cosmetic concerns that may affect confidence and relationships with partners, the lack of volume or cushioning can also lead to discomfort in everyday life.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

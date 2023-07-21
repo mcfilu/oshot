@@ -10,8 +10,8 @@ const OshotImage = () => {
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
                     <h1 className={`text-gold1 text-[8vh] font-header  mt-[3vh] text-left`}>Labia </h1>
                 <h1 className={`text-gold1 text-[8vh] font-header mb-[1vh] text-left`}>Fillers</h1>
-                        <h1 className={`text-white text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Rediscover feminine confidence with Labia Fillers, a cutting-edge procedure that revitalizes and enhances the appearance of the labia. Using dermal fillers, this treatment amplifies volume and contours, delivering a fuller and youthful look.</h1>
-                        <a className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
+                        <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Rediscover feminine confidence with Labia Fillers, a cutting-edge procedure that revitalizes and enhances the appearance of the labia. Using dermal fillers, this treatment amplifies volume and contours, delivering a fuller and youthful look.</h1>
+                        <a href="#labia_opening" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                        
                     {/* </div> */}
         </div>

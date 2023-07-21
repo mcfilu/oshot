@@ -41,8 +41,8 @@ const OshotOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>G-Spot amplification is an option for women seeking to enhance their sexual experiences. The G-spot, located on the front wall inside the vagina, is a highly sensitive erogenous zone connected to the clitoral network.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>Stimulating the G-spot during sexual activity can lead to heightened sexual arousal, powerful orgasms, and potentially even ejaculation. If you desire more intense orgasms or struggle to reach climax, G-spot amplification may be a suitable choice for you.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>G-Spot amplification is an option for women seeking to enhance their sexual experiences. The G-spot, located on the front wall inside the vagina, is a highly sensitive erogenous zone connected to the clitoral network.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 `}>Stimulating the G-spot during sexual activity can lead to heightened sexual arousal, powerful orgasms, and potentially even ejaculation. If you desire more intense orgasms or struggle to reach climax, G-spot amplification may be a suitable choice for you.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

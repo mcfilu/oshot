@@ -41,8 +41,8 @@ const OshotOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>Thinning and shrinking of tissues, along with decreased lubrication, can lead to various symptoms in a woman's life cycle, including dryness, irritation, soreness, dyspareunia, urinary frequency, urgency, and urge incontinence.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>The CO2RE Intima laser treatment addresses these concerns by stimulating collagen synthesis and remodeling vaginal connective tissue fibers without causing damage to surrounding tissues. This leads to an improvement in the symptoms experienced. Additionally, the treatment enhances vaginal muscle tone, strength, and control, providing increased self-confidence and comfort.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>Thinning and shrinking of tissues, along with decreased lubrication, can lead to various symptoms in a woman's life cycle, including dryness, irritation, soreness, dyspareunia, urinary frequency, urgency, and urge incontinence.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 `}>The CO2RE Intima laser treatment addresses these concerns by stimulating collagen synthesis and remodeling vaginal connective tissue fibers without causing damage to surrounding tissues. This leads to an improvement in the symptoms experienced. Additionally, the treatment enhances vaginal muscle tone, strength, and control, providing increased self-confidence and comfort.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

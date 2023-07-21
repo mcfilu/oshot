@@ -41,8 +41,8 @@ const OshotOpening = () => {
             <img className={`w-full h-full object-cover `} src={sherif}></img>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>The female orgasm is a complex combination of different stimuli and arousal factors that come together to produce sexual satisfaction. It involves clitoral stimulation, G-spot stimulation, and psychological stimulus.</p>
-            <p className={`flex text-white text-[2.5vh] text-center text-gold1 `}>The O-Shot® utilizes Platelet Rich Plasma (PRP) Therapy to rejuvenate the vaginal tissues associated with the female orgasm system, aiming to enhance sexual pleasure. With the G-Shot, we use dermal fillers to amplify and enhance the internal G-spot, potentially leading to increased sexual stimulation and vaginal orgasms.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>The female orgasm is a complex combination of different stimuli and arousal factors that come together to produce sexual satisfaction. It involves clitoral stimulation, G-spot stimulation, and psychological stimulus.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 `}>The O-Shot® utilizes Platelet Rich Plasma (PRP) Therapy to rejuvenate the vaginal tissues associated with the female orgasm system, aiming to enhance sexual pleasure. With the G-Shot, we use dermal fillers to amplify and enhance the internal G-spot, potentially leading to increased sexual stimulation and vaginal orgasms.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

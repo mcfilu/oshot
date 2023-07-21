@@ -10,8 +10,8 @@ const OshotImage = () => {
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
                     <h1 className={`text-gold1 text-[8vh] font-header  mt-[3vh] text-left`}>O-Concept Chair </h1>
                 <h1 className={`text-gold1 text-[8vh] font-header mb-[1vh] text-left`}>For Her</h1>
-                        <h1 className={`text-white text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Regain confidence and embrace enhanced intimacy as the O-Concept Chair takes a holistic approach to your sexual well-being. Experience the benefits of improved blood circulation, heightened sensitivity, and overall sexual enhancement. </h1>
-                        <a className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
+                        <h1 className={`text-white text-[2.2vh] md:text-[2.5vh] font-main mb-[1vh] text-left  w-full md:w-[75%]`}>Regain confidence and embrace enhanced intimacy as the O-Concept Chair takes a holistic approach to your sexual well-being. Experience the benefits of improved blood circulation, heightened sensitivity, and overall sexual enhancement. </h1>
+                        <a href="#chair_opening" className={`text-gold1 hover-underline-animation2 text-left text-[2vh] font-main `}>READ MORE</a>
                        
                     {/* </div> */}
         </div>
