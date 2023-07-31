@@ -74,11 +74,12 @@ const Co = () => {
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <CoSummary/>
               </div>
-              <div className={`flex  w-full items-center mt-[7vh]`}>
-                  <OconceptInfo/>
-              </div>
+              
               <div className={`flex  w-full md:w-[70%] md:mx-auto items-center mt-[7vh]`}>
                   <CoFaqs/>
+              </div>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <OconceptInfo/>
               </div>
               {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[7vh] `}>
                   

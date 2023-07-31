@@ -74,9 +74,7 @@ const Thermi = () => {
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <ThermiSummary/>
               </div>
-              <div className={`flex  w-full items-center mt-[7vh]`}>
-                  <OconceptInfo/>
-              </div>
+              
               <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
                   <ThermiCompare/>
               </div>
@@ -91,6 +89,9 @@ const Thermi = () => {
                 <div className={`flex w-1/2`}>
                     <ThermiCompare/>
                 </div>
+              </div>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <OconceptInfo/>
               </div>
               {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[7vh] `}>
                   

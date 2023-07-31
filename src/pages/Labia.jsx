@@ -74,9 +74,7 @@ const Labia = () => {
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <LabiaSummary/>
               </div>
-              <div className={`flex  w-full items-center mt-[7vh]`}>
-                  <OconceptInfo/>
-              </div>
+              
               <div className={`flex  w-full md:hidden items-center mt-[7vh]`}>
                   <LabiaCompare/>
               </div>
@@ -91,6 +89,9 @@ const Labia = () => {
                 <div className={`flex w-1/2`}>
                     <LabiaCompare/>
                 </div>
+              </div>
+              <div className={`flex  w-full items-center mt-[7vh]`}>
+                  <OconceptInfo/>
               </div>
               {/* <div className={`flex  w-full h-auto  justify-center items-center  mt-[7vh] `}>
                   
