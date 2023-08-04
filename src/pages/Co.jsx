@@ -24,6 +24,7 @@ import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
 // import { Co_vid } from '../assets'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Co = () => {
     // const [videoEnded, setVideoEnded] = useState(false);
@@ -34,6 +35,10 @@ const Co = () => {
 
   return (
     <div className={`bg- w-full`}>
+        <Helmet>
+            <title>CO2RE Intima Vaginal Rejuvenation in London | O-Shot</title>
+            <meta name='description' content="Experience vaginal rejuvenation in London with CO2RE Intima by Dr. Sherif Wakil. Discover the best O Concept treatment. Call +44 (0)20 3006 8459." />
+        </Helmet>
         {/* <div className={`hidden md:flex fixed z-20 `}>
             <video src={Co_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

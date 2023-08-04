@@ -22,7 +22,7 @@ const OshotServices = () => {
         
         
         <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
-        <NavLink to={`/gshot`}>
+        <NavLink to={`/gshot-injection-in-london`}>
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov1 ? 'scale-125' : ''}`} src={oshot_image2}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -42,7 +42,7 @@ const OshotServices = () => {
         
     
         <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/o-concept-chair`}>
+        <NavLink to={`/o-concept-chair-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov2 ? 'scale-125' : ''}`} src={oshot_image6}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -62,7 +62,7 @@ const OshotServices = () => {
         
     
         <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/o-shot-and-g-shot`}>
+        <NavLink to={`/o-shot-and-g-shot-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov3 ? 'scale-125' : ''}`} src={oshot_image4}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -91,7 +91,7 @@ const OshotServices = () => {
         
         
         <div  onMouseEnter={() => setHove4((prev) => !prev)} onMouseLeave={() => setHove4((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
-        <NavLink to={`/thermiva-feminine-wellness`}>
+        <NavLink to={`/thermiva-feminine-wellness-in-london`}>
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov4 ? 'scale-125' : ''}`} src={thermiva}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -112,7 +112,7 @@ const OshotServices = () => {
         
     
         <div onMouseEnter={() => setHove5((prev) => !prev)} onMouseLeave={() => setHove5((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/co2-re-intima`}>
+        <NavLink to={`/co2-re-intima-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
                 <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov5 ? 'scale-125' : ''}`} src={shockwave1}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
@@ -132,7 +132,7 @@ const OshotServices = () => {
         
     
         <div onMouseEnter={() => setHove6((prev) => !prev)} onMouseLeave={() => setHove6((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <NavLink to={`/labia-fillers`}>
+        <NavLink to={`/labia-fillers-in-london`}>
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov6 ? 'scale-125' : ''}`} src={oshot1}></img>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>

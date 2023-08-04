@@ -24,6 +24,7 @@ import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
 // import { Chair_vid } from '../assets'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Chair = () => {
     // const [videoEnded, setVideoEnded] = useState(false);
@@ -34,6 +35,10 @@ const Chair = () => {
 
   return (
     <div className={`bg- w-full`}>
+        <Helmet>
+            <title>O Concept Chair in London | O-Shot</title>
+            <meta name='description' content="Experience the ultimate O Concept Chair in London with Dr. Sherif Wakil's exceptional treatment. Call us today at +44 (0)20 3006 8459 for an appointment." />
+        </Helmet>
         {/* <div className={`hidden md:flex fixed z-20 `}>
             <video src={Chair_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

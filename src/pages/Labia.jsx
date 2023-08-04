@@ -24,6 +24,7 @@ import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
 // import { Labia_vid } from '../assets'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Labia = () => {
     // const [videoEnded, setVideoEnded] = useState(false);
@@ -34,6 +35,10 @@ const Labia = () => {
 
   return (
     <div className={`bg- w-full`}>
+        <Helmet>
+            <title>Discover Labia Fillers in London | O-Shot</title>
+            <meta name='description' content="Enhance your confidence with top-notch labia fillers in London by Dr. Sherif Wakil. Call us today at +44 (0)20 3006 8459 for the best results and care." />
+        </Helmet>
         {/* <div className={`hidden md:flex fixed z-20 `}>
             <video src={Labia_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

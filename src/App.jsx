@@ -15,6 +15,7 @@ import Labia from './pages/Labia'
 import Thermi from './pages/Thermi'
 import Co from './pages/Co'
 import OtherTreatments from './pages/OtherTreatments'
+import { HelmetProvider } from 'react-helmet-async'
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
 
   return (
     <>
+    <HelmetProvider>
       <Routes>
         {/* <Route path="/" element={<Home />} />
         <Route path="/vampire-breastlift" element={<VampireBreastLift />} />
@@ -38,19 +40,20 @@ const App = () => {
         <Route path="/breast-reduction" element={<Reduction />} /> */}
 
         <Route path="/" element={<Oshot/>} />
-        <Route path="/gshot" element={<Gshot/>} />
-        <Route path="/o-shot-and-g-shot" element={<Og/>} />
-        <Route path="/o-concept-chair" element={<Chair/>} />
-        <Route path="/thermiva-feminine-wellness" element={<Thermi/>} />
-        <Route path="/labia-fillers" element={<Labia/>} />
-        <Route path="/co2-re-intima" element={<Co/>} />
+        <Route path="/gshot-injection-in-london" element={<Gshot/>} />
+        <Route path="/o-shot-and-g-shot-in-london" element={<Og/>} />
+        <Route path="/o-concept-chair-in-london" element={<Chair/>} />
+        <Route path="/thermiva-feminine-wellness-in-london" element={<Thermi/>} />
+        <Route path="/labia-fillers-in-london" element={<Labia/>} />
+        <Route path="/co2-re-intima-in-london" element={<Co/>} />
 
-        <Route path="/o-concept" element={<Oconcept/>} />
+        <Route path="/o-concept-treatment-in-london/" element={<Oconcept/>} />
         <Route path="/dr-wakil" element={<DrWakil />} />
         <Route path="/other-treatments" element={<OtherTreatments />}/>
         <Route path="/contact" element={<Contact />} />
         <Route path="/book-now" element={<Book/>}/>
       </Routes>
+      </HelmetProvider>
     </>
     
   );

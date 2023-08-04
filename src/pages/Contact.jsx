@@ -9,10 +9,15 @@ import Awards from '../components/Awards'
 
 import WakilClinic from '../components/WakilClinic'
 import FooterBook from '../components/FooterBook'
+import { Helmet } from 'react-helmet-async'
 
 const Contact = () => {
   return (
     <div className={`bg-primary w-full`}>
+        <Helmet>
+            <title>Contact O-Shot | O Concept Treatment in London</title>
+            <meta name='description' content="Experience the best O Shot treatment in London with Dr. Sherif Wakil. Regain confidence and pleasure. Call +44 (0)20 3006 8459 to book your appointment." />
+        </Helmet>
 
         <div className={`fixed z-10 `}>
             <Navbar/>

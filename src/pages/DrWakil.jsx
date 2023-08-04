@@ -14,10 +14,15 @@ import WakilClinic from '../components/WakilClinic'
 import WakilImage from '../components/WakilImage'
 // import Alberto from '../components/Alberto'
 // import Davood from '../components/Davood'
+import { Helmet } from 'react-helmet-async'
 
 const DrWakil = () => {
   return (
     <div className={`bg-primary w-full`}>
+        <Helmet>
+            <title>Dr. Sherif Wakil | Sexual Aesthetics Doctor in UK</title>
+            <meta name='description' content="Experience the best O Concept Treatment in London with Dr. Sherif Wakil. Call +44 (0)20 3006 8459 to book your appointment and revitalize your skin." />
+        </Helmet>
 
         <div className={`fixed z-10 `}>
             <Navbar/>

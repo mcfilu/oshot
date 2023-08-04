@@ -24,6 +24,7 @@ import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
 // import { Thermi_vid } from '../assets'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Thermi = () => {
     // const [videoEnded, setVideoEnded] = useState(false);
@@ -34,6 +35,10 @@ const Thermi = () => {
 
   return (
     <div className={`bg- w-full`}>
+        <Helmet>
+            <title>Thermiva Feminine Wellness in London | O-Shot</title>
+            <meta name='description' content="Experience the best O concept treatment for feminine wellness in London with Dr. Sherif Wakil's Thermiva. Call +44 (0)20 3006 8459 for appointments." />
+        </Helmet>
         {/* <div className={`hidden md:flex fixed z-20 `}>
             <video src={Thermi_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

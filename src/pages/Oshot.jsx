@@ -24,6 +24,7 @@ import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
 // import { Oshot_vid } from '../assets'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Oshot = () => {
     // const [videoEnded, setVideoEnded] = useState(false);
@@ -34,6 +35,10 @@ const Oshot = () => {
 
   return (
     <div className={`bg- w-full`}>
+        <Helmet>
+            <title>Revitalize and Rejuvenate with the O-Shot in London | O-Shot</title>
+            <meta name='description' content="Revitalize your intimate life with O-Shot in London. Dr. Sherif Wakil offers top-notch O Concept treatment. Call +44 (0)20 3006 8459 for a consultation." />
+        </Helmet>
         {/* <div className={`hidden md:flex fixed z-20 `}>
             <video src={Oshot_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}

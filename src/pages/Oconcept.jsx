@@ -14,11 +14,16 @@ import OconceptOpening from '../components/OconceptOpening'
 import OconceptVideo from '../components/OconceptVideo'
 import OconceptDetails from '../components/OconceptDetails'
 import WakilSummary from '../components/WakilSummary'
+import { Helmet } from 'react-helmet-async'
 
 
 const Oconcept = () => {
   return (
     <div className={`bg- w-full`}>
+      <Helmet>
+            <title>O Concept Treatment in London | O-Shot</title>
+            <meta name='description' content="Discover the ultimate O Concept Treatment in London with Dr. Sherif Wakil. Experience the best care. Call us now at +44 (0)20 3006 8459 for appointments." />
+        </Helmet>
     {/* <div className={`hidden md:fixed fixed z-20 `}>
           <video src={vampire_Pshot_new_intro} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
       </div> */}

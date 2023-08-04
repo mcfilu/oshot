@@ -24,6 +24,7 @@ import FooterBook from '../components/FooterBook'
 import OconceptInfo from '../components/OconceptInfo'
 // import { Gshot_vid } from '../assets'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const Gshot = () => {
     // const [videoEnded, setVideoEnded] = useState(false);
@@ -34,6 +35,10 @@ const Gshot = () => {
 
   return (
     <div className={`bg- w-full`}>
+        <Helmet>
+            <title>G Shot Injection in London | O-Shot</title>
+            <meta name='description' content="Get the best G Shot Injection in London at Dr. Sherif Wakil's clinic. Experience top-notch O Concept Treatment. Call +44 (0)20 3006 8459 now." />
+        </Helmet>
         {/* <div className={`hidden md:flex fixed z-20 `}>
             <video src={Gshot_vid} className={`${videoEnded ? 'hidden' : ''} w-screen`} onEnded={handleVideoEnd} onClick={handleVideoEnd} id="vid_player" autoPlay muted></video>
         </div> */}
