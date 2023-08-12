@@ -194,6 +194,21 @@ import thermi_before6 from './thermi_before6.jpeg';
 import thermi_after6 from './thermi_after6.jpeg';
 import thermi_before7 from './thermi_before7.jpeg';
 import thermi_after7 from './thermi_after7.jpeg';
+import sherif_hands from './sherif_hands.jpeg';
+import sherif_comp from './sherif_comp.jpeg';
+import sherif_standing from './sherif_standing.jpeg';
+import sherif_bg_mobile from './sherif_bg_mobile.jpeg';
+import clinic_bg from './clinic_bg.jpeg';
+import clinic_hallway from './clinic_hallway.jpeg';
+import clinic_reception from './clinic_reception.jpeg';
+import clinic_room from './clinic_room.jpeg';
+import sherif_bg from './sherif_bg.jpeg';
+import sherif_consultation from './sherif_consultation.jpeg';
+import sherif_new from './sherif_new.jpeg';
+import sherif_plan from './sherif_plan.jpeg';
+import channel4 from './channel4.png';
+import award6 from './award6.png';
+
 
 
 import oshot_logo from './oshot_logo.svg';
@@ -396,4 +411,18 @@ export {
     thermi_before5,
     thermi_before6,
     thermi_before7,
+    sherif_bg,
+    sherif_bg_mobile,
+    sherif_comp,
+    sherif_consultation,
+    sherif_hands, 
+    sherif_new,
+    sherif_plan,
+    sherif_standing,
+    clinic_bg,
+    clinic_hallway,
+    clinic_reception,
+    clinic_room,
+    channel4,
+    award6,
 };

@@ -107,27 +107,19 @@ const Navbar = () => {
     const active_path = window.location.pathname;
     const w_height = window.screen.height;
     const to_start = () => {
-      if (active_path === '/contact') {
-        return true;
-      }
-      else {
-        return false
-      }
+      return false;
     }
     const[color, setColor] = React.useState(to_start)
 
     
     const changeColor = () => {
-      if (active_path === '/contact') {
-
-      }
-      else {
+      
         if(window.scrollY >= w_height*0.3){
             setColor(true)
         }else{
             setColor(false)
         }
-      }
+      
     }
     window.addEventListener('scroll', changeColor)
     const [toggle, setToggle] = useState(false);

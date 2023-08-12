@@ -20,7 +20,7 @@ const Book = () => {
         <div className={`relative z-0 ` }>
             {/* <Contact2/> */}
         </div>
-        <div className="flex flex-col bg-black " >
+        <div className="flex flex-col bg-black pb-[8vh]" >
             <div className={`flex flex-col justify-center `}>
                 <div className={`flex  w-full md:h-[100vh] mt-[10vh] md:mt-0 justify-center items-center `} >
                   <BookForm/>
@@ -46,7 +46,7 @@ const Book = () => {
               
           </div>
         </div>
-        <div className={`relative z-0 mt-[8vh]` }>
+        <div className={`relative z-0 ` }>
           <Footer/>
         </div>
     </div>

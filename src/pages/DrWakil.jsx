@@ -16,12 +16,20 @@ import WakilImage from '../components/WakilImage'
 // import Davood from '../components/Davood'
 import { Helmet } from 'react-helmet-async'
 
+
+
+
+
+import WakilPreOpening from '../components/WakilPreOpening'
+import { pshot_vid } from '../assets'
+import { useState } from 'react'
+
 const DrWakil = () => {
   return (
     <div className={`bg-primary w-full`}>
         <Helmet>
             <title>Dr. Sherif Wakil | Sexual Aesthetics Doctor in UK</title>
-            <meta name='description' content="Experience the best O Concept Treatment in London with Dr. Sherif Wakil. Call +44 (0)20 3006 8459 to book your appointment and revitalize your skin." />
+            <meta name='description' content="Experience the best O-Shot and O Concept Treatment in London with Dr. Sherif Wakil. Call +44 (0)20 3006 8459 to book your appointment and revitalize your skin." />
         </Helmet>
 
         <div className={`fixed z-10 `}>
@@ -32,20 +40,23 @@ const DrWakil = () => {
         </div>
         <div className="flex flex-col bg-black " >
             <div className={`flex flex-col justify-center`}>
-            <div id="wakil_opening" className={`flex  w-full  justify-center items-center mt-[8vh]`} >
-                  <WakilOpening/>
-              </div>
-              
               <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
-                  <WakilDetails/>
+                  <WakilPreOpening/>
+              </div>
+              <div id="wakil_opening" className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <WakilOpening/>
               </div>
               <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
                   <WakilSummary/>
               </div>
-              
               <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
-                  <WakilClinic/>
+                  <WakilDetails/>
               </div>
+              
+              
+              {/* <div className={`flex  w-full  justify-center items-center mt-[8vh]`} >
+                  <WakilClinic/>
+              </div> */}
               
               <div className={`flex  w-full justify-center items-center mt-[8vh]`} >
                   <BookNow/>
@@ -70,3 +81,5 @@ const DrWakil = () => {
 }
 
 export default DrWakil
+
+
